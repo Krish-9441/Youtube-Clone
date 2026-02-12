@@ -1,0 +1,38 @@
+Routes = show different components based on URL
+Routing = changing pages without reloading the website
+
+Stack is a container component for arranging elements vertically or horizontally.
+
+overFlow-y:auto
+if contentSize:
+small -no scrollbar
+large-scrollbar appears automatically
+
+flex:2 take 2 parts of available space
+
+Category changes
+   ↓
+API call happens
+   ↓
+videos state updates
+   ↓
+Component re-renders
+   ↓
+New videos shown
+
+snippet?.thumbnail?.high?.url
+we use question mark to not to get errors, it will be just undefined
+
+GoogleDefines
+search?channelId=...&part=...&order=...
+we just fill
+${id}
+snippet
+date
+
+
+why Box in self closing tag in channelDetail page 
+we are not wrapping up videos in our Box component because of some margin issues 
+
+Default export → NO {}
+Named export → WITH {}
